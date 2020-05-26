@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 2f; // FIX SOON
+        Time.timeScale = 2.15f; // resets game speed
         GameIsPaused = false;
     }
 
@@ -45,6 +45,6 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         UnityEditor.EditorApplication.isPlaying = false;
-        // Application.Quit();
+        // Application.Quit(); <-- for actual build
     }
 }

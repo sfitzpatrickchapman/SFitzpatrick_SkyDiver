@@ -503,8 +503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Balloon: {fileID: 5899437298785230918, guid: e9234e7874b6be64bbf68d432d3b96fb, type: 3}
-  timerMin: 4
-  timerMax: 6
 --- !u!4 &307884366
 Transform:
   m_ObjectHideFlags: 0
@@ -1459,7 +1457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f28f651b5680245b03c89ced2b8d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.2
+  scrollSpeed: 0.25
   clampPosition: 3.583
 --- !u!212 &1658413128
 SpriteRenderer:

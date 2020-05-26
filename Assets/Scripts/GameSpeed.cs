@@ -5,7 +5,7 @@ using System;
 
 public class GameSpeed : MonoBehaviour
 {
-    public float modifiedScale;
+    private float modifiedScale = 2.15f;
 
     void Start()
     {

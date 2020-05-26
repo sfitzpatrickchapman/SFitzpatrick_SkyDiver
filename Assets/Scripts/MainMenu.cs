@@ -10,9 +10,6 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        // causing an error even though fully functional; don't know why
-        if (highscore == null || highscore.text == null)
-            highscore.text = "0";
         highscore.text = "HIGHSCORE: " + PlayerPrefs.GetInt("scoreStorage"); // displays highscore
     }
 

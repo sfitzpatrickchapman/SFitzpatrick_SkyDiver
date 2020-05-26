@@ -21,7 +21,6 @@ public class player_controller : MonoBehaviour
         gameOverText.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();

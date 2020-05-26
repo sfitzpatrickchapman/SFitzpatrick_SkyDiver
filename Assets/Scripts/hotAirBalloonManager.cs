@@ -11,18 +11,16 @@ public class hotAirBalloonManager : MonoBehaviour
     public float timerMin;
     public float timerMax;
 
-    // Start is called before the first frame update
     void Start()
     {
         timer = 0; // for spawns
         maxTimer = Random.Range(timerMin, timerMax); // for spawns
     }
 
-    // Update is called once per frame
     void Update()
     {
         StartCoroutine("SpawnHotAirBalloonTimer");
-        timerMin -= 0.0002f;
+        timerMin -= 0.0002f; // causes more hot air ballons to be spawned over time
         timerMax -= 0.0002f;
     }
 

@@ -8,17 +8,15 @@ public class balloonManager : MonoBehaviour
     private float maxTimer; // for spawns
     public GameObject Balloon;
 
-    public float timerMin = 4f;
-    public float timerMax = 6f;
+    private float timerMin = 4f;
+    private float timerMax = 6f;
 
-    // Start is called before the first frame update
     void Start()
     {
         timer = 0; // for spawns
         maxTimer = Random.Range(timerMin, timerMax); // for spawns
     }
 
-    // Update is called once per frame
     void Update()
     {
         StartCoroutine("SpawnBalloonTimer");

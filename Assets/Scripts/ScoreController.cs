@@ -9,7 +9,7 @@ public class ScoreController : MonoBehaviour
     public Text highscoreText;
     public float score = 0f;
     private float pointIncreasedPerSecond;
-    // highscores stored in the key: scoreStorage
+    // highscores stored in the PlayerPrefs key: scoreStorage
 
     void Start()
     {
